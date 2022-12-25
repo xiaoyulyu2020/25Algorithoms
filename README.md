@@ -1,4 +1,7 @@
 # 25Algorithoms
+
+![](https://miro.medium.com/max/720/0*OCh2ueFNWVEkvNsy.webp)
+
 ---
 - [ ] Binary Search Algorithm
 - [ ] Breadth First Search (BFS) Algorithm
