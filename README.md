@@ -3,7 +3,7 @@
 ![](https://miro.medium.com/max/720/0*OCh2ueFNWVEkvNsy.webp)
 
 ---
-- [X] Binary Search Algorithm
+- [X] [Binary Search Algorithm](https://github.com/xiaoyulyu2020/25Algorithoms/tree/main/BSA)
 - [ ] Breadth First Search (BFS) Algorithm
 - [ ] Depth First Search (DFS) Algorithm
 - [ ] Merge Sort Algorithm
