@@ -12,6 +12,8 @@ class Graphy:
 
 def bfs(graphy, vertex, discovered):
     q = deque()
+    # q = [] with special functions -- that is deque
+    
     discovered[vertex] = True
     q.append(vertex)
     
