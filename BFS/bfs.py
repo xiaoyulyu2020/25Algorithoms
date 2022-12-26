@@ -15,6 +15,7 @@ def bfs(graphy, vertex, discovered):
     # q = [] with special functions -- that is deque
     
     discovered[vertex] = True
+    # discovered = [False, False, False, True, False, ...]
     q.append(vertex)
     
     while q:
@@ -33,7 +34,7 @@ if __name__ == "__main__":
     graphy = Graphy(edges, n)
     
     discovered = [False] * n
-    
+    print(discovered)
     for i in range(n):
         if not discovered[i]:
             bfs(graphy, i, discovered)
