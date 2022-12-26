@@ -2,10 +2,13 @@ from collections import deque
 class Graphy:
     def __init__(self, edges, n):
         self.adjList = [[] for _ in range(n)]
-        
+        # adjList = [[],[],[]...n*]
         for (head, leaf) in edges:
+            # dedges = [(head, leaf),(head, leaf),...]
             self.adjList[head].append(leaf)
+            # adjList = [[head, leaf], [head, leaf],...]
             self.adjList[leaf].append(head)
+            # adjList = [[head, leaf], [head, leaf], [leaf, head], [leaf, head]...]
 
 def bfs(graphy, vertex, discovered):
     q = deque()
