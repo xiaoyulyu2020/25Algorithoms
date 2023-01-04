@@ -5,7 +5,7 @@
 ---
 - [X] [Binary Search Algorithm](https://github.com/xiaoyulyu2020/25Algorithoms/tree/main/BSA)
 - [X] [Breadth First Search (BFS) Algorithm](https://github.com/xiaoyulyu2020/25Algorithoms/tree/main/BFS)
-- [X] Depth First Search (DFS) Algorithm
+- [X] [Depth First Search (DFS) Algorithm](https://github.com/xiaoyulyu2020/25Algorithoms/tree/main/DFS)
 - [ ] Merge Sort Algorithm
 - [ ] Quicksort Algorithm
 - [ ] Kruskal’s Algorithm
