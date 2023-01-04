@@ -24,3 +24,13 @@ def inorder_print(root):
         inorder_print(root.left)
         print(root.value, end=" ")
         inorder_print(root.right)
+        
+if __name__=="__main__":
+    root = Node(1)
+    root.insert(2)
+    root.insert(3)
+    root.insert(4)
+    root.insert(5)
+    root.insert(6)
+    root.insert(7)
+    inorder_print(root)
